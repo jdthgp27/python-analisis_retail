@@ -1,11 +1,15 @@
 📊 Online Retail II — Análisis de Negocio y Segmentación de Clientes
 Proyecto de Business Analytics que combina Python, análisis estadístico y segmentación RFM para identificar oportunidades de crecimiento comercial en un dataset real de e-commerce.
 
-https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white
-https://img.shields.io/badge/pandas-3.0.5-150458?logo=pandas&logoColor=white
-https://img.shields.io/badge/License-MIT-green.svg
-https://img.shields.io/badge/Status-Completado-success.svg
-https://img.shields.io/badge/Dataset-UCI-blue.svg
+[![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![pandas](https://img.shields.io/badge/pandas-3.0.5-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-2.x-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.11-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-0.13-4C72B0?style=for-the-badge)](https://seaborn.pydata.org/)
+[![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Completado-success?style=for-the-badge)]()
+[![Dataset](https://img.shields.io/badge/Dataset-UCI-blue?style=for-the-badge)](https://archive.ics.uci.edu/ml/datasets/Online+Retail+II)
 
 📌 Descripción del proyecto
 Este proyecto realiza un análisis de negocio completo sobre el dataset Online Retail II del repositorio UCI, que contiene 1.067.371 transacciones de una tienda online británica de regalo y decoración entre diciembre 2009 y diciembre 2011.
@@ -47,7 +51,8 @@ openpyxl 3.1.5	Lectura de archivos Excel
 pyarrow 25.0.1	Exportación a Parquet
 Power BI Desktop	Dashboard final (opcional)
 📁 Estructura del repositorio
-text
+
+```text
 online-retail-analysis/
 │
 ├── datos/                              # Dataset original (no versionado)
@@ -78,6 +83,7 @@ online-retail-analysis/
 │
 ├── LICENSE
 └── README.md
+```
 🚀 Cómo ejecutar el proyecto
 1. Clonar el repositorio
 bash
@@ -185,18 +191,24 @@ Inversión estimada: £50.000
 ROI: 23x
 Crecimiento proyectado: +7,1%
 
-📸 Capturas del análisis
-Segmentación de clientes
-https://salidas/figuras/18_distribucion_segmentos.png
 
-Ingresos por segmento
-https://salidas/figuras/19_ingresos_por_segmento.png
+## 📸 Capturas del análisis
 
-Matriz de priorización
-https://salidas/figuras/23_matriz_priorizacion.png
+### Segmentación de clientes
 
-Serie temporal de ingresos
-https://salidas/figuras/09_ingresos_mensuales.png
+![Distribución de segmentos](salidas/figuras/18_distribucion_segmentos.png)
+
+### Ingresos por segmento
+
+![Ingresos por segmento](salidas/figuras/19_ingresos_por_segmento.png)
+
+### Matriz de priorización
+
+![Matriz de priorización](salidas/figuras/23_matriz_priorizacion.png)
+
+### Serie temporal de ingresos
+
+![Evolución mensual de ingresos](salidas/figuras/09_ingresos_mensuales.png)
 
 📄 Documentación
 Informe completo: docs/informe_final.md
